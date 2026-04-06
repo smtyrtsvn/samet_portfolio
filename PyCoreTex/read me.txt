@@ -1,0 +1,64 @@
+📦 Textile ERP & Advanced Stock Management System
+A comprehensive, cost-oriented inventory and financial management application specifically designed for textile businesses. This system streamlines the transition from raw production costs to international sales by integrating Landed Cost calculations, EAN-13 barcoding, and Current Account (Cari) tracking into a single modern interface.
+
+🚀 Core Features
+1. Precision Costing (Landed Cost Engine)
+FOB-based Calculation: Automatically calculates total costs by adding freight, local transport, and lab testing fees to the factory price.
+
+Automated Expenses: Integrated logic for VAT (21%), Customs Brokerage (0.5%), and Bank Fees (0.5%).
+
+Dynamic Currency Parity: Real-time conversion from USD to EUR based on user-defined parity rates, allowing for accurate European market pricing.
+
+2. Intelligent Inventory & Barcoding
+Automated EAN-13 Generation: Every unique SKU (Color/Size variant) automatically receives a mathematically valid, unique EAN-13 barcode upon creation.
+
+Smart Stock Tracking: Separate reporting for "Stock Status" (Quantities) and "Financial Status" (Values), featuring automated calculation of In-flows and Out-flows.
+
+3. Financial & Current Account Management (CRM/SRM)
+Ledger System: Full tracking of Supplier debts and Customer credits.
+
+Transaction History: Record manual payments and collections to maintain an accurate real-time balance for every business partner.
+
+Profitability Analysis: Detailed SKU-level reporting on Total Cost vs. Total Sales to monitor Net Profit/Loss.
+
+4. Professional Documentation & Integration
+Master-Detail Invoicing: Advanced UI to list past invoices and examine itemized details with a single click.
+
+PDF Export: Generate professional Proforma Invoices in PDF format.
+
+Excel Integration: Support for bulk product uploads (Import) and comprehensive reporting (Export) for Stocks, Finance, and Accounts.
+
+🛠 Tech Stack
+Language: Python 3.10+
+
+UI Framework: CustomTkinter (Modern, Dark Mode compatible interface)
+
+Database: SQLite3 (Relational data management)
+
+Data Processing: Pandas (Excel engine and complex reporting)
+
+PDF Engine: ReportLab (Dynamic document generation)
+
+Excel Handling: OpenPyXL
+
+📦 Installation & Setup
+Clone the repository:
+
+Bash
+git clone https://github.com/yourusername/textile-erp-system.git
+Install required dependencies:
+
+Bash
+pip install customtkinter pandas openpyxl reportlab pillow
+Run the application:
+
+Bash
+python main.py
+📸 Preview
+(Tip: Add your own screenshots here to make the profile look much more professional)
+
+Product Definition & Costing Panel
+
+Dynamic Invoice Creation & Master-Detail View
+
+Financial Profit/Loss Dashboard
