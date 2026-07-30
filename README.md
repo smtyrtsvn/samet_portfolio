@@ -26,6 +26,10 @@ The primary goal of these projects is to eliminate manual data entry, ensure 100
 **Business Impact:** Automates the design work for HR and corporate branding. It intelligently handles text-wrapping for long names and titles, outputting print-ready files for large teams in seconds.
 * **Tech Stack:** Python, `pandas`, `matplotlib`, `reportlab` (QR generation), `PIL`.
 
+### 5. 📦 Stocker (Python & SQL-based ERP System)
+**Description:** A comprehensive, lightweight Enterprise Resource Planning (ERP) and inventory management program built from scratch.
+**Business Impact:** Provides end-to-end visibility into stock levels, order management, and operational workflows. It demonstrates a deep understanding of relational databases (SQL) and supply chain data architecture, moving beyond simple scripts to full-scale system design.
+* **Tech Stack:** Python, SQLite, GUI (Tkinter/PyQt)
 ---
 
 ## 💡 Why This Matters
